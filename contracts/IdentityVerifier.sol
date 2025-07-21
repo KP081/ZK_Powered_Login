@@ -15,7 +15,7 @@ contract IdentityVerifier {
         emit userVerified(user);
     }
 
-    function isVerifide(address user) external view returns(bool){
+    function isVerified(address user) external view returns(bool){
         return verifiedUsers[user];
     }
 
